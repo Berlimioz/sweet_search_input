@@ -1,0 +1,29 @@
+{
+  "name": "sweet_search_input",
+  "version": "0.0.1",
+  "description": "Simple responsive search input",
+  "main": "_sweet_search_input.scss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Berlimioz/sweet_search_input.git"
+  },
+  "author": "Chloé Roger <chloe@bemioz.com>",
+  "contributors": [
+    {
+      "name": "Chloé Roger",
+      "email": "chloe@bemioz.com"
+    }],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Berlimioz/sweet_search_input/issues"
+  },
+  "homepage": "https://github.com/Berlimioz/sweet_search_input",
+  "keywords": [
+    "css",
+    "nav",
+    "responsive"
+  ],
+  "dependencies": {
+    "inuit-responsive-tools": "~0.1.3"
+  }
+}

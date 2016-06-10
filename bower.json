@@ -1,0 +1,19 @@
+{
+  "name": "sweet_search_input.css",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Berlimioz/sweet_search_input",
+  "authors": [
+    "Chloé Roger <chloe@bemioz.com>"
+  ],
+  "description": "Simple responsive search input",
+  "main": "_sweet_search_input.scss",
+  "keywords": [
+    "css",
+    "search",
+    "responsive"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "inuit-responsive-tools": "~0.1.3"
+  }
+}
