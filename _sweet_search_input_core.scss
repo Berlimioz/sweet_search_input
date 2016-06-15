@@ -1,6 +1,7 @@
 form.search-form{
+  height: 100%;
   .input-div{
-    vertical-align: middle;
+    height: 100%;
     white-space: nowrap;
     position: relative;
   }
@@ -9,13 +10,14 @@ form.search-form{
     border: none;
     float: left;
     padding-left: 3em;
+    height: $search-height;
   }
 
   .input-div .icon{
     position: absolute;
-    top: 50%;
-    margin-left: 0.5em;
-    margin-top: 3px;
+    top: $icon-position-top;
+    margin-left: $icon-margin-left;
+    margin-top: $icon-margin-top;
     z-index: 1;
     color: black;
     font-size: $search-form-input-font-size;
@@ -39,7 +41,7 @@ form.search-form{
     }
 
     .input-div input.search{
-      padding-left: 1em;
+      padding-left: $search-padding-left-portable;
     }
 
     &:hover{
